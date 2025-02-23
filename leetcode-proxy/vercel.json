@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "leetcode-proxy/index.js",
+      "src": "/index.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "leetcode-proxy/index.js"
+      "dest": "/index.js"
     }
   ]
 }
